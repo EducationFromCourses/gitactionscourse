@@ -14,7 +14,7 @@ jobs:
         run: echo "wellcome to our frist GitHub Actions WorkFlow!"
         
       - name: Checkout repository
-        uses: actions/checkout@5.0.0
+        uses: actions/checkout@v5.0.0
 
       - name: List repositeory files
         run: ls -la
